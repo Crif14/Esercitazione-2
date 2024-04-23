@@ -1,12 +1,28 @@
-.button:hover,
-.button:link,
-.button:active,
-.button:visited{
-  color: white;
-  text-decoration: none;
+.button{
   display: block;
-  background: #240202;
+  background-color: black;
+  font-family: 'Merriweather', sans-serif ;
+  width: 308px;
+  height: 78px;
+  text-decoration: none;
+  margin-top: 35px;
+  color: white;
   font-size: 35px;
-  padding: 14px 33px;
-  line-height: 50px;
+  padding-left: 33px;
+  padding-top: 14px;
+  position: relative;
+
+}
+
+.button::after{
+  content: " ";
+  background-image: (" ");
+  width: 28px;
+  display: block;
+  height: 34px;
+  background-size: 28px 34px;
+  position: absolute;
+  right: 31px;
+  top: 50%;
+  transform: translateY(-50%)
 }
