@@ -6,4 +6,21 @@
 .customlist .listitem::before{
     counter-increment: listitem;
     content: "0" counter(listitem)".";
+    color: #707070; 
+    font-size: 70px;
+    
+}
+.customlist .listitem{
+    padding-bottom: 53px;
+}
+.customlink{
+    color: #FF0000;
+    font-size: 22px;
+    line-height: 34px;
+}
+.text{
+    font-size: 22px;
+    line-height: 34px;
+    color: #707070; 
+    border-top: #707070 2px solid;
 }
