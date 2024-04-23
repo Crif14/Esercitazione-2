@@ -1,0 +1,9 @@
+.customlist ol{
+    padding: 0;
+    list-style: none;
+    counter-reset: listitem;
+}
+.customlist .listitem::before{
+    counter-increment: listitem;
+    content: "0" counter(listitem)".";
+}
