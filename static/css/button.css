@@ -1,28 +1,14 @@
-.button{
-  display: block;
-  background-color: black;
-  font-family: 'Merriweather', sans-serif ;
-  width: 308px;
-  height: 78px;
-  text-decoration: none;
-  margin-top: 35px;
-  color: white;
+.button {
+  background-color: #240202;
+  color: #ffffff;
   font-size: 35px;
   padding-left: 33px;
+  padding-right: 60px;  
   padding-top: 14px;
-  position: relative;
-
-}
-
-.button::after{
-  content: " ";
-  background-image: (" ");
-  width: 28px;
-  display: block;
-  height: 34px;
+  padding-bottom: 14px;
+  background-image: url(https://ouch-cdn2.icons8.com/B0nLn9HhxpyDWIoWEa-bv3wC8cLgxz6IojNgZZ7DDdA/rs:fit:876:456/extend:false/wm:1:re:0:0:0.8/wmid:ouch/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvODEy/L2JlMzE1ODI2LThi/MzktNGJjOS04ZTM5/LWRjNTE3NjFiNjU5/OC5zdmc.png);
   background-size: 28px 34px;
-  position: absolute;
-  right: 31px;
-  top: 50%;
-  transform: translateY(-50%)
+  background-repeat: no-repeat;
+  background-position: calc(100% - 28px) center;
+
 }
